@@ -1,0 +1,71 @@
+{
+  "Navigation": { "Home": "الرئيسية", "Pricing": "الأسعار", "ContactSales": "كلم المبيعات", "TrackingShipment": "تتبع شحنتك", "SignIn": "تسجيل الدخول", "lang": "ENG" },
+  "HomePage": { "title": "الصفحة الرئيسية", "subTitle": "مرحبا بك فى تطبيق بوسطة لتتبع الشحنات", "sectionHeader": "أرقام التتبع المتاحة هى" },
+  "PricingPage": { "title": "صفحة الأسعار" },
+  "ContactSalesPage": { "title": "صفحة كلم المبيعات" },
+  "SignInPage": { "title": "صفحة تسجيل الدخول" },
+  "NotFoundPage": {"title": "عفوا ، لم يتم العثور على الصفحة", "button": "العودة إلى الرئيسية"},
+  "SearchBox": { "title": "تتبع شحنتك", "text": "اكتب رقم الشحنة وتتبع شحنتك خطوة بخطوة", "input": "رقم الشحنة" },
+  "Footer": { "title": "الشحنات", "Copyright": " حقوق النشر 2019© بوسطة" },
+  "shipmentData": {
+    "TrackingNumber": "رقم الشحنة",
+    "LastUpdate": "اخر تحديث",
+    "Merchant": "اسم التاجر",
+    "DeliveryTime": "موعد التسليم خلال",
+    "ShipmentCreated": "تم انشاء الشحنة",
+    "MerchantRecieve": "تم استلام الشحنة من التاجر",
+    "ShipmentDelivery": "الشحنة خرجت للتسليم",
+    "SentHanded": "تم التسليم",
+    "ShipmentDetailsTitle": "تفاصيل الشحنة",
+    "table": {
+      "details": "تفاصيل",
+      "time": "الوقت",
+      "date": "التاريخ",
+      "branch": "الفرع",
+      "created": "تم انشاء الشحنة",
+      "received": "تم استلام الشحنة من التاجر",
+      "out": "الشحنة خرجت للتسليم",
+      "delivered": ""
+    },
+    "DeliveryAddress": "عنوان التسليم",
+    "AddressText": "امبابة شارع طلعت حرب مدينة العمال بجوار البرنس منزل 17 بلوك 33 ... Cairo",
+    "Question": "!هل يوجد مشكلة في شحنتك؟",
+    "QuestionBtn": "إبلاغ عن مشكلة"
+  },
+  "6636234": {
+    "CurrentStatus": { "state": "تم تسليم الشحنة" },
+    "TransitEvents": {
+      "TICKET_CREATED": { "hub": "بوسطة" },
+      "PACKAGE_RECEIVED": { "hub": "بوسطة" },
+      "OUT_FOR_DELIVERY": { "hub": "بوسطة" },
+      "DELIVERED": { "hub": "بوسطة" }
+    }
+  },
+  "7234258": {
+    "CurrentStatus": { "state": "تم تسليم الشحنة" },
+    "TransitEvents": {
+      "TICKET_CREATED": { "hub": "القطامية" },
+      "PACKAGE_RECEIVED": { "hub": "القاهرة" },
+      "OUT_FOR_DELIVERY": { "hub": "طنطا" },
+      "DELIVERED": { "hub": "طنطا" }
+    }
+  },
+  "9442984": {
+    "CurrentStatus": { "state": "تم إلغاء الشحنة" },
+    "TransitEvents": {
+      "TICKET_CREATED": { "hub": "المهندسين" },
+      "PACKAGE_RECEIVED": { "hub": "المهندسين" },
+      "OUT_FOR_DELIVERY": { "hub": "المهندسين" },
+      "DELIVERED": { "hub": "المهندسين" }
+    }
+  },
+  "1094442": {
+    "CurrentStatus": { "state": "تم تسليم الشحنة" },
+    "TransitEvents": {
+      "TICKET_CREATED": { "hub": "الأسكندرية" },
+      "PACKAGE_RECEIVED": { "hub": "القاهرة" },
+      "OUT_FOR_DELIVERY": { "hub": "القطامية" },
+      "DELIVERED": { "hub": "القطامية" }
+    }
+  }
+}

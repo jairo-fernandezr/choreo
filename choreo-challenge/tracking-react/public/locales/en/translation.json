@@ -1,0 +1,69 @@
+{
+  "Navigation": { "Home": "Home", "Pricing": "Pricing", "ContactSales": "Contact Sales", "TrackingShipment": "Tracking Shipment", "SignIn": "Sign in", "lang": "عربي" },
+  "HomePage": { "title": "Home Page", "subTitle": "Welcome to bosta shipment tracking app", "sectionHeader": "Availble tracking numbers are" },
+  "PricingPage": { "title": "Pricing Page" },
+  "ContactSalesPage": { "title": "Contact Sales Page" },
+  "SignInPage": { "title": "Sign in Page" },
+  "NotFoundPage": { "title": "Opps, Page Not Found", "button": "BACK TO HOME" },
+  "SearchBox": { "title": "Track your shipment", "text": "Enter your tracking No.", "input": "Tracking No." },
+  "Footer": { "title": "Shipments", "Copyright": "Copyright ©2019 bosta.co" },
+  "shipmentData": {
+    "TrackingNumber": "Tracking Number",
+    "LastUpdate": "Last update",
+    "Merchant": "Merchant name",
+    "DeliveryTime": "Delivery time within",
+    "ShipmentCreated": "Shipment created",
+    "MerchantRecieve": "The shipment has been received from the merchant",
+    "ShipmentDelivery": "The shipment is out for delivery ",
+    "SentHanded": "sent delivered handed",
+    "ShipmentDetailsTitle": "Shipment details",
+    "table": {
+      "details": "Details",
+      "time": "Time",
+      "date": "Date",
+      "branch": "Branch",
+      "created": "Shipment created",
+      "received": "The shipment has been received from the merchant",
+      "out": "The shipment is out for delivery ",
+      "delivered": ""
+    },
+    "DeliveryAddress": "Delivery address",
+    "AddressText": "Imbaba, Talaat Harb Street, Workers City, next to El Prince, House 17, Block 33 ... Cairo ",
+    "NoFoundAddressText": "No Address, tracking data not found ",
+    "Question": "Is there a problem with your shipment?",
+    "QuestionBtn": "Report a problem"
+  },
+  "6636234": {
+    "TransitEvents": {
+      "TICKET_CREATED": { "hub": "Bosta" },
+      "PACKAGE_RECEIVED": { "hub": "Bosta" },
+      "OUT_FOR_DELIVERY": { "hub": "Bosta" },
+      "DELIVERED": { "hub": "Bosta" }
+    }
+  },
+  "7234258": {
+    "TransitEvents": {
+      "TICKET_CREATED": { "hub": "Katamya" },
+      "PACKAGE_RECEIVED": { "hub": "Cairo" },
+      "OUT_FOR_DELIVERY": { "hub": "Tanta" },
+      "DELIVERED": { "hub": "Tanta" }
+    }
+  },
+  "9442984": {
+    "TransitEvents": {
+      "TICKET_CREATED": { "hub": "Mohandseen" },
+      "PACKAGE_RECEIVED": { "hub": "Mohandseen" },
+      "OUT_FOR_DELIVERY": { "hub": "Mohandseen" },
+      "DELIVERED": { "hub": "Mohandseen" }
+    },
+    "CancelationReason": "Postponement - the customer requested to postpone for another day"
+  },
+  "1094442": {
+    "TransitEvents": {
+      "TICKET_CREATED": { "hub": "Alexandria" },
+      "PACKAGE_RECEIVED": { "hub": "Cairo" },
+      "OUT_FOR_DELIVERY": { "hub": "Katamya" },
+      "DELIVERED": { "hub": "Katamya" }
+    }
+  }
+}
