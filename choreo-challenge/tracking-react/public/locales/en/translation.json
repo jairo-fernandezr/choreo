@@ -1,0 +1,69 @@
+{
+  "Navigation": { "Home": "Home", "Pricing": "Pricing", "ContactSales": "Contact Sales", "TrackingShipment": "Tracking Shipment", "SignIn": "Sign in", "lang": "" },
+  "HomePage": { "title": "Home Page", "subTitle": "Welcome to Raptor Delivery tracking app", "sectionHeader": "Availble tracking numbers are" },
+  "PricingPage": { "title": "Pricing Page" },
+  "ContactSalesPage": { "title": "Contact Sales Page" },
+  "SignInPage": { "title": "Sign in Page" },
+  "NotFoundPage": { "title": "Opps, Page Not Found", "button": "BACK TO HOME" },
+  "SearchBox": { "title": "Track your shipment", "text": "Enter your tracking No.", "input": "Tracking No." },
+  "Footer": { "title": "Shipments", "Copyright": "Copyright ©2024 RaptorDelivery.com" },
+  "shipmentData": {
+    "TrackingNumber": "Tracking Number",
+    "LastUpdate": "Last update",
+    "Merchant": "Merchant name",
+    "DeliveryTime": "Delivery time within",
+    "ShipmentCreated": "Shipment created",
+    "MerchantRecieve": "The shipment has been received from the merchant",
+    "ShipmentDelivery": "The shipment is out for delivery ",
+    "SentHanded": "sent delivered handed",
+    "ShipmentDetailsTitle": "Shipment details",
+    "table": {
+      "details": "Details",
+      "time": "Time",
+      "date": "Date",
+      "branch": "Branch",
+      "created": "Shipment created",
+      "received": "The shipment has been received from the merchant",
+      "out": "The shipment is out for delivery ",
+      "delivered": ""
+    },
+    "DeliveryAddress": "Delivery address",
+    "AddressText": "100 Francois-Betancourt, La Prairie J5A 6A7 QC, Canada",
+    "NoFoundAddressText": "No Address, tracking data not found ",
+    "Question": "Is there a problem with your shipment?",
+    "QuestionBtn": "Report a problem"
+  },
+  "6636234": {
+    "TransitEvents": {
+      "TICKET_CREATED": { "hub": "Raptor Delivery" },
+      "PACKAGE_RECEIVED": { "hub": "Raptor Delivery" },
+      "OUT_FOR_DELIVERY": { "hub": "Raptor Delivery" },
+      "DELIVERED": { "hub": "Raptor Delivery" }
+    }
+  },
+  "7234258": {
+    "TransitEvents": {
+      "TICKET_CREATED": { "hub": "Laval" },
+      "PACKAGE_RECEIVED": { "hub": "Montreal" },
+      "OUT_FOR_DELIVERY": { "hub": "Brossard" },
+      "DELIVERED": { "hub": "Brossard" }
+    }
+  },
+  "9442984": {
+    "TransitEvents": {
+      "TICKET_CREATED": { "hub": "Montreal" },
+      "PACKAGE_RECEIVED": { "hub": "Montreal" },
+      "OUT_FOR_DELIVERY": { "hub": "Montreal" },
+      "DELIVERED": { "hub": "Montreal" }
+    },
+    "CancelationReason": "Postponement - the customer requested to postpone for another day"
+  },
+  "1094442": {
+    "TransitEvents": {
+      "TICKET_CREATED": { "hub": "Montreal" },
+      "PACKAGE_RECEIVED": { "hub": "Brossard" },
+      "OUT_FOR_DELIVERY": { "hub": "Candiac" },
+      "DELIVERED": { "hub": "Candiac" }
+    }
+  }
+}

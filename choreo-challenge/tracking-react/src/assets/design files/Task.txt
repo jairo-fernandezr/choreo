@@ -1,0 +1,23 @@
+Hi Shaher,
+
+Thanks a lot for your interest in the Front-End Engineer vacancy at Bosta.
+
+We would like to invite you to the next step in our interviewing process: technical assessment.
+
+Task description:
+Use our Bosta Shipment tracking GET request here (tracking number to be used: 6636234, 7234258, 9442984,1094442 )https://tracking.bosta.co/shipments/track/:trackingNumber
+Create a react app that similar to our website tracking service (currently HTML on bosta.co)
+Call the API and handle the response in a similar UI like the attached here
+Build the UI completely responsive and use a UI assets similar to the ones inside these images
+Data returned in the API is strings in english, please map it to Arabic with any way you think it will be better
+Use font name: Cairo (search for it) and make the font weight adjustment similar to the shown below.
+Wish you good luck isA :)
+
+Please assume any missing data and imagine in the UI.
+
+We are expecting to receive back the task in 5-7 days from today and we are sure that you will amaze us. We believe a better way to have a complete task to be developed and hosted, code to be committed to Github and a link to be submitted to me.
+
+After completing the task, we'll reach out with more details on how we will progress through the process.
+Please feel free to reach out to us if you need more information or have any questions.
+
+Good luck,

@@ -1,0 +1,208 @@
+{
+  "1094442": {
+	  "provider": "Bosta",
+	  "CurrentStatus": {
+		"state": "DELIVERED",
+		"timestamp": "2020-07-22T13:22:56.383Z"
+	  },
+	  "PromisedDate": "2020-07-22T19:07:50.883Z",
+	  "TrackingNumber": "1094442",
+	  "TrackingURL": "bosta.co/tracking-shipment/?track_num=1094442",
+	  "SupportPhoneNumbers": [
+		"19043"
+	  ],
+	  "TransitEvents": [
+		{
+		  "state": "TICKET_CREATED",
+		  "timestamp": "2020-07-21T17:37:31.116Z"
+		},
+		{
+		  "state": "PACKAGE_RECEIVED",
+		  "timestamp": "2020-07-21T19:07:50.931Z",
+		  "hub": "Alexandria Hub"
+		},
+		{
+		  "state": "IN_TRANSIT",
+		  "timestamp": "2020-07-21T19:19:44.202Z"
+		},
+		{
+		  "state": "PACKAGE_RECEIVED",
+		  "timestamp": "2020-07-21T22:51:12.385Z",
+		  "hub": "Cairo Sorting Facility"
+		},
+		{
+		  "state": "IN_TRANSIT",
+		  "timestamp": "2020-07-22T00:11:04.465Z"
+		},
+		{
+		  "state": "PACKAGE_RECEIVED",
+		  "timestamp": "2020-07-22T00:18:51.305Z"
+		},
+		{
+		  "state": "NOT_YET_SHIPPED",
+		  "timestamp": "2020-07-22T07:21:24.498Z"
+		},
+		{
+		  "state": "OUT_FOR_DELIVERY",
+		  "timestamp": "2020-07-22T07:21:25.036Z"
+		},
+		{
+		  "state": "DELIVERED",
+		  "timestamp": "2020-07-22T13:22:56.383Z"
+		}
+	  ],
+	  "CreateDate": "2020-07-21T17:37:31.147Z",
+	  "isEditableShipment": false,
+	  "nextWorkingDay": [
+		{
+		  "dayDate": "2020-07-23",
+		  "dayName": "Thrusday"
+		}
+	  ]
+	},
+  "9442984": {
+	  "provider": "Bosta",
+	  "CurrentStatus": {
+		"state": "DELIVERED_TO_SENDER",
+		"timestamp": "2020-07-21T16:11:56.966Z"
+	  },
+	  "PromisedDate": "2020-07-22T12:27:41.141Z",
+	  "TrackingNumber": "9442984",
+	  "TrackingURL": "bosta.co/tracking-shipment/?track_num=9442984",
+	  "SupportPhoneNumbers": [
+		"19043"
+	  ],
+	  "TransitEvents": [
+		{
+		  "state": "TICKET_CREATED",
+		  "timestamp": "2020-07-20T10:18:20.790Z"
+		},
+		{
+		  "state": "PACKAGE_RECEIVED",
+		  "timestamp": "2020-07-20T15:07:17.915Z",
+		  "hub": "Mohandseen Hub"
+		},
+		{
+		  "state": "NOT_YET_SHIPPED",
+		  "timestamp": "2020-07-21T08:00:09.499Z"
+		},
+		{
+		  "state": "OUT_FOR_DELIVERY",
+		  "timestamp": "2020-07-21T08:01:35.862Z"
+		},
+		{
+		  "state": "WAITING_FOR_CUSTOMER_ACTION",
+		  "timestamp": "2020-07-21T10:17:31.663Z",
+		  "reason": "تأجيل - العميل طلب التاجيل ليوم اخر"
+		},
+		{
+		  "state": "PACKAGE_RECEIVED",
+		  "timestamp": "2020-07-21T15:54:10.971Z",
+		  "hub": "Mohandseen Hub"
+		},
+		{
+		  "state": "NOT_YET_SHIPPED",
+		  "timestamp": "2020-07-21T15:54:46.945Z"
+		},
+		{
+		  "state": "OUT_FOR_DELIVERY",
+		  "timestamp": "2020-07-21T15:54:47.007Z"
+		},
+		{
+		  "state": "DELIVERED",
+		  "timestamp": "2020-07-21T16:11:56.913Z"
+		},
+		{
+		  "state": "DELIVERED_TO_SENDER",
+		  "timestamp": "2020-07-21T16:11:56.966Z"
+		}
+	  ],
+	  "CreateDate": "2020-07-20T10:18:20.824Z",
+	  "isEditableShipment": false,
+	  "nextWorkingDay": [
+		{
+		  "dayDate": "2020-07-23",
+		  "dayName": "Thrusday"
+		}
+	  ]
+	},
+	"7234258": {
+	   "provider":"Bosta",
+	   "CurrentStatus":{
+		  "state":"DELIVERED",
+		  "timestamp":"2020-07-25T12:25:31.247Z"
+	   },
+	   "PromisedDate":"2020-07-22T11:08:38.483Z",
+	   "TrackingNumber":"7234258",
+	   "TrackingURL":"bosta.co/tracking-shipment/?track_num=7234258",
+	   "SupportPhoneNumbers":[
+		  "19043"
+	   ],
+	   "TransitEvents":[
+		  {
+		     "state":"TICKET_CREATED",
+		     "timestamp":"2020-07-20T16:34:55.123Z"
+		  },
+		  {
+		     "state":"PACKAGE_RECEIVED",
+		     "timestamp":"2020-07-20T18:19:42.569Z"
+		  },
+		  {
+		     "state":"IN_TRANSIT",
+		     "timestamp":"2020-07-20T18:56:20.431Z"
+		  },
+		  {
+		     "state":"PACKAGE_RECEIVED",
+		     "timestamp":"2020-07-20T20:35:50.110Z",
+		     "hub":"Cairo Sorting Facility"
+		  },
+		  {
+		     "state":"IN_TRANSIT",
+		     "timestamp":"2020-07-20T22:29:07.671Z"
+		  },
+		  {
+		     "state":"PACKAGE_RECEIVED",
+		     "timestamp":"2020-07-21T06:11:45.522Z",
+		     "hub":"Tanta Hub"
+		  },
+		  {
+		     "state":"NOT_YET_SHIPPED",
+		     "timestamp":"2020-07-21T09:12:08.197Z"
+		  },
+		  {
+		     "state":"OUT_FOR_DELIVERY",
+		     "timestamp":"2020-07-21T09:12:08.609Z"
+		  },
+		  {
+		     "state":"WAITING_FOR_CUSTOMER_ACTION",
+		     "timestamp":"2020-07-21T09:29:14.016Z",
+		     "reason":"تأجيل - العميل طلب التاجيل ليوم اخر"
+		  },
+		  {
+		     "state":"PACKAGE_RECEIVED",
+		     "timestamp":"2020-07-22T07:47:22.206Z",
+		     "hub":"Tanta Hub"
+		  },
+		  {
+		     "state":"NOT_YET_SHIPPED",
+		     "timestamp":"2020-07-25T10:35:10.858Z"
+		  },
+		  {
+		     "state":"OUT_FOR_DELIVERY",
+		     "timestamp":"2020-07-25T10:35:11.500Z"
+		  },
+		  {
+		     "state":"DELIVERED",
+		     "timestamp":"2020-07-25T12:25:31.247Z"
+		  }
+	   ],
+	   "CreateDate":"2020-07-20T16:34:55.150Z",
+	   "isEditableShipment":false,
+	   "nextWorkingDay":[
+		  {
+		     "dayDate":"2020-07-23",
+		     "dayName":"Thrusday"
+		  }
+	   ]
+	}	
+}
