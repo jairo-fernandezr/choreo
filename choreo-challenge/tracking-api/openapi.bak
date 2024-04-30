@@ -34,6 +34,8 @@ paths:
             text/plain:
               schema:
                 type: string                
+      security:
+      - default: []
 components:
   schemas:
     ShipmentPayload:
@@ -87,3 +89,10 @@ components:
                 format: date
               dayName:
                 type: string
+  securitySchemes:
+    default:
+      type: oauth2
+      flows:
+        implicit:
+          authorizationUrl: https://test.com
+          scopes: {}
