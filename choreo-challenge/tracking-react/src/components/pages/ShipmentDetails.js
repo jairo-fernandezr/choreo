@@ -6,13 +6,14 @@ import ShipmentTable from '../layouts/ShipmentTable';
 import ErrorMessage from '../layouts/ErrorMessage'; // Import the message layout component
 import ShipmentStatusError from '../layouts/ShipmentStatusError'; // Import the message layout component
 import useFetch from '../hooks/useFetch';
-
+import { apiUrl } from "../api/config";
 
 
 const ShipmentDetails = () => {
   const { track_num } = useParams();
 
-  const url = `http://localhost:5000/track/${track_num}`;
+  //const url = `http://localhost:5000/track/${track_num}`;
+  const url = `${apiUrl}/track/${track_num}`;
   const  {data, error}  = useFetch(url);
 
 if (error) {
