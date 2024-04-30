@@ -8,13 +8,17 @@ import ShipmentStatusError from '../layouts/ShipmentStatusError'; // Import the 
 import useFetch from '../hooks/useFetch';
 
 
-const apiUrl = window.configs.apiUrl;
+
+const apiUrl = window?.configs?.apiUrl ? window.configs.apiUrl : "http://localhost:8080";
+
 
 const ShipmentDetails = () => {
   const { track_num } = useParams();
 
-  //const url = `http://localhost:5000/track/${track_num}`;
+
   const url = `${apiUrl}/track/${track_num}`;
+  
+  console.log(url);
   const  {data, error}  = useFetch(url);
 
 if (error) {
