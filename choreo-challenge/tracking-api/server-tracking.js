@@ -7,9 +7,12 @@ const app = express();
 const payloads = JSON.parse(fs.readFileSync('payloads.json', 'utf8'));
 
 // Use the cors middleware to allow requests from a specific origin
+/*
 app.use(cors({
     origin: 'http://localhost:3000' // Replace with your React app's domain
 }));
+*/
+app.use(cors());
 
 // Define a route for the API
 app.get('/track/:trackingNumber', (req, res) => {
