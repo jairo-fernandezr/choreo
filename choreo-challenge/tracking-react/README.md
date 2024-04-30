@@ -1,6 +1,6 @@
-# 🚛 Bosta - A shipment tracking react app.
+# 🚛 Raptor Delivery - A shipment tracking react app.
 
-This is a solution to the technical assessment of [Bosta courier services provider](https://bosta.co/). 
+This is a solution to participate the choreo challenge
 
 ## Table of contents
 
@@ -21,20 +21,15 @@ This is a solution to the technical assessment of [Bosta courier services provid
 
 ### The challenge
 
-- Use our Bosta Shipment tracking GET request [here](https://tracking.bosta.co/shipments/track/:trackingNumber).
-- tracking number to be used: (6636234, 7234258, 9442984,1094442 ).
-- Create a react app that similar to our website tracking service [currently HTML on bosta.co](https://bosta.co/tracking-shipment/?lang=en&track_num=6636234).
-- Call the API and handle the response in a [similar UI like the attached here](https://github.com/the-goat7/Bosta/tree/main/src/assets/design%20files).
-- Build the UI completely responsive and use a UI assets similar to the ones inside these images.
-- Data returned in the API is strings in english, please map it to Arabic with any way you think it will be better.
-- Use font name: Cairo (search for it) and make the font weight adjustment similar to the shown below.
+- Create a frontend app
+- Create an internal API
+- Use the chore platform to host them
 
-**Note: Please assume any missing data and imagine in the UI.**
 
 
 ### Links
 
-- Solution URL: [Bosta Shipment tracking app](https://bosta-tracking-app.netlify.app/)
+
 
 ## My process
 

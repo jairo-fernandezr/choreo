@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 import useResize from '../hooks/useResize';
 import { useTranslation } from 'react-i18next';
 import enlogo from '../../assets/images/logo_en_red.svg';
-import arlogo from '../../assets/images/logo_ar_red.svg';
+
 
 const Header = ({ openSearchBox, setOpenSearchBox }) => {
   const { t, i18n } = useTranslation();
@@ -14,13 +14,7 @@ const Header = ({ openSearchBox, setOpenSearchBox }) => {
   const allListItems = document.querySelectorAll('.nav-menu li');
 
   useEffect(() => {
-    /* the page direction on first load */
-    if (i18n.language === 'ar') {
-      document.body.dir = 'rtl';
-    }
-    if (i18n.language === 'en-US') {
-      document.body.dir = 'ltr';
-    }
+  document.body.dir = 'ltr';
 
     /* detect the active link on first load for desktop */
     const pathName = window.location.pathname.slice(1);
@@ -86,13 +80,17 @@ const Header = ({ openSearchBox, setOpenSearchBox }) => {
 
   const handleLanguage = (e) => {
     openMenu && setOpenMenu(!openMenu);
-    if (e.target.textContent === 'عربي') {
+    i18n.changeLanguage('en-US');
+      document.body.dir = 'ltr';
+   
+   /* if (e.target.textContent === 'عربي') {
       i18n.changeLanguage('ar');
       document.body.dir = 'rtl';
     } else {
       i18n.changeLanguage('en-US');
       document.body.dir = 'ltr';
     }
+    */
   };
 
   const navMenu = (
@@ -102,20 +100,16 @@ const Header = ({ openSearchBox, setOpenSearchBox }) => {
           <li onClick={handleClick} className='home-link'>
             <Link to='/'>{t('Navigation.Home')}</Link>
           </li>
-          <li onClick={handleClick} className='pricing'>
-            <Link to='/pricing'>{t('Navigation.Pricing')}</Link>
-          </li>
-          <li onClick={handleClick} className='contact-sales'>
-            <Link to='/contact-sales'>{t('Navigation.ContactSales')}</Link>
-          </li>
+
         </ul>
         <ul>
-          <li onClick={() => setOpenSearchBox(!openSearchBox)} className='tracking-shipment'>
-            <div>
-              <span>{t('Navigation.TrackingShipment')}</span>
-              {openSearchBox ? <ArrowUpIcon /> : <ArrowDownIcon />}
-            </div>
+          <li onClick={handleClick} className='home-link'>
+            <Link to='/tracking-shipment'>{t('Navigation.TrackingShipment')}</Link>
           </li>
+
+        </ul>
+        <ul>
+ 
           <li className='column-rule'></li>
           <li onClick={handleClick} className='sign-in'>
             <Link to='/sign-in'>{t('Navigation.SignIn')}</Link>
@@ -128,11 +122,17 @@ const Header = ({ openSearchBox, setOpenSearchBox }) => {
     </div>
   );
 
+
+
   return (
+
     <StyledHeader>
+
       <div className='navbar'>
+
         <Link className='logo' to='/'>
-          <img onClick={handleClick} src={i18n.language === 'ar' ? arlogo : enlogo} alt='logo' />
+
+          <img onClick={handleClick} src={enlogo} alt='logo' />
         </Link>
         <MenuIcon onClick={() => setOpenMenu(!openMenu)} />
       </div>
@@ -195,11 +195,13 @@ const StyledHeader = styled.header`
     }
   }
 
+
   .nav-menu ul > li:not(.column-rule) {
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+
     list-style: none;
     padding: 0.3rem 0;
     border-bottom: 1px solid var(--borderBottomClr);
@@ -212,12 +214,14 @@ const StyledHeader = styled.header`
       &:hover {
         border-top: 5px solid var(--redTxtClr);
       }
+
     }
   }
 
   .nav-menu ul:last-child > li {
     width: 100%;
     border-bottom: 0;
+
   }
 
   .nav-menu nav ul {
@@ -226,6 +230,7 @@ const StyledHeader = styled.header`
       display: flex;
       justify-content: space-between;
       align-items: center;
+
       &:nth-child(2) {
         width: 33%;
         @media (min-width: 1280px) {
@@ -253,6 +258,7 @@ const StyledHeader = styled.header`
   }
 
   .tracking-shipment {
+
     color: var(--mediumGrayClr);
     font-weight: bold;
     cursor: pointer;
@@ -280,6 +286,7 @@ const StyledHeader = styled.header`
     background-color: var(--lightGrayClr);
     @media (min-width: 981px) {
       display: block;
+
     }
   }
 `;

@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import Wrapper from './Wrapper';
 import enlogo from '../../assets/images/logo_en_white.svg';
-import arlogo from '../../assets/images/logo_ar_white.svg';
 import facebook from '../../assets/images/facebook.svg';
 import twitter from '../../assets/images/twitter.svg';
 
@@ -22,17 +21,19 @@ const Footer = () => {
     <StyleFooter className='Footer'>
       <Wrapper>
         <div className='footer-links'>
-          <div>
-            <img src={i18n.language === 'ar' ? arlogo : enlogo} alt='logo' />
-            <p>help@bosta.co</p>
+          <div>           
+            <Link className='logo' to='/'>
+          		<img onClick={handleClick} src={enlogo} alt='logo' />
+        	</Link>
+            <p>help@raportdelivery.com</p>
             <ul>
               <li>
-                <a href=''>
+                <a href='/'>
                   <img src={facebook} alt='facebook-icon' />
                 </a>
               </li>
               <li>
-                <a href=''>
+                <a href='/'>
                   <img src={twitter} alt='twitter-icon' />
                 </a>
               </li>
@@ -41,9 +42,7 @@ const Footer = () => {
           <div>
             <p>{t('Footer.title')}</p>
             <ul>
-              <li onClick={() => handleClick('pricing')}>
-                <Link to='/pricing'>{t('Navigation.Pricing')}</Link>
-              </li>
+
               <li onClick={() => handleClick('tracking-shipment')}>
                 <Link to='/tracking-shipment'>{t('Navigation.TrackingShipment')}</Link>
               </li>
@@ -138,5 +137,13 @@ const StyleFooter = styled.footer`
     text-align: center;
     padding: 1rem 0;
     background: #000000;
+  }
+  
+  .logo {
+    width: 120px;
+    img {
+      display: block;
+      width: 15%;
+    }
   }
 `;

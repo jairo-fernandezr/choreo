@@ -43,12 +43,18 @@ const StyledSearchBox = styled.div`
   margin: ${({ className }) => (className === 'small-box' ? '77px auto 0' : '-3rem auto 0')};
   @media (min-width: 981px) {
     position: relative;
-    left: ${({ className, lang }) => (className === 'small-box' ? (lang === 'ar' ? '-7%' : '11%') : '0')};
+    left: '11%';
+    padding: 7rem;
   }
   h1 {
     color: var(--blackTxtClr);
     font-size: 24px;
   }
+  h2 {
+    color: var(--blackTxtClr);
+    font-size: 42px;
+  }
+  
   p {
     margin: ${({ className }) => (className === 'small-box' ? '-5px 0 20px' : '10px 0 20px')};
     color: #5e5e5e;

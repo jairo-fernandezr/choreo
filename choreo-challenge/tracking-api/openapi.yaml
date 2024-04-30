@@ -1,0 +1,89 @@
+openapi: 3.0.1
+info:
+  title: Tracking API
+  version: 0.1.0
+servers:
+- url: "{server}:{port}"
+  variables:
+    port:
+      default: '8080'
+    server:
+      default: http://localhost
+paths:
+  "/track/{trackNum}":
+    get:
+      operationId: getTrackingDetails
+      parameters:
+      - name: trackNum
+        in: path
+        required: true
+        style: simple
+        explode: false
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Ok
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/ShipmentPayload"
+        '404':
+          description: NotFound
+          content:
+            text/plain:
+              schema:
+                type: string                
+components:
+  schemas:
+    ShipmentPayload:
+      type: object
+      properties:
+        provider:
+          type: string
+        CurrentStatus:
+          type: object
+          properties:
+            state:
+              type: string
+            timestamp:
+              type: string
+              format: date-time
+        PromisedDate:
+          type: string
+          format: date-time
+        TrackingNumber:
+          type: string
+        TrackingURL:
+          type: string
+        SupportPhoneNumbers:
+          type: array
+          items:
+            type: string
+        TransitEvents:
+          type: array
+          items:
+            type: object
+            properties:
+              state:
+                type: string
+              timestamp:
+                type: string
+                format: date-time
+              hub:
+                type: string
+        CreateDate:
+          type: string
+          format: date-time
+        isEditableShipment:
+          type: boolean
+        nextWorkingDay:
+          type: array
+          items:
+            type: object
+            properties:
+              dayDate:
+                type: string
+                format: date
+              dayName:
+                type: string
