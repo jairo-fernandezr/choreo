@@ -6,10 +6,10 @@ import ShipmentTable from '../layouts/ShipmentTable';
 import ErrorMessage from '../layouts/ErrorMessage'; // Import the message layout component
 import ShipmentStatusError from '../layouts/ShipmentStatusError'; // Import the message layout component
 import useFetch from '../hooks/useFetch';
-import {apiUrl} from '../../../public/config';
+//import {apiUrl} from '../../../public/config';
 
 
-//const apiUrl = window?.configs?.apiUrl ? window.configs.apiUrl : "http://localhost:8080";
+const apiUrl = window?.configs?.apiUrl ? window.configs.apiUrl : "http://localhost:8080";
 
 
 const ShipmentDetails = () => {
