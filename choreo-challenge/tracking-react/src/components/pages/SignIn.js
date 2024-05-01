@@ -7,6 +7,7 @@ const SignIn = () => {
   return (
     <StyledPage className='SignIn'>
       <h1>{t('SignInPage.title')}</h1>
+      <button onClick={() => {window.location.href="/auth/login"}}>Login</button>
     </StyledPage>
   );
 };
