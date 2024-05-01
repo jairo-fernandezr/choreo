@@ -10,12 +10,12 @@ import useFetch from '../hooks/useFetch';
 
 //const apiUrl = window?.configs?.apiUrl ? window.configs.apiUrl : "http://localhost:8080";
 
-const apiUrl = 'https://121a89eb-0982-4a78-89d0-f9edb0c2d9bd-dev.e1-us-cdp-2.choreoapis.dev/tracking-app/choreo-challengetracking-api/tracking-api-5c6/v1';
+//const apiUrl = 'https://121a89eb-0982-4a78-89d0-f9edb0c2d9bd-dev.e1-us-cdp-2.choreoapis.dev/tracking-app/choreo-challengetracking-api/tracking-api-5c6/v1';
 
 
 // const apiUrl = 'http://localhost:8080';
 
-//const apiUrl = '/choreo-apis/test-tracking-system/test-tracking-api/tracking-api-5c6/v1';
+const apiUrl = '/choreo-apis/tracking-app/choreo-challengetracking-api/tracking-api-5c6/v1';
 
 
 
